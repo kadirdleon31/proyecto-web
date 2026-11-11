@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colecciones</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+<header class="navbar">
+        <div class="logo">
+            <span class="text-gold">Super</span>Star🌟
+        </div>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="#">Hoodies</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="tittle">
+        <h1>Coleccion</h1>
+        <p>[Subtitulo de la coleccion]</p>
+    </div>
+
+    <div class="contenedor">
+        <aside class="filtros">
+            <h3>Categorias</h3>
+            <ul>
+                <li>
+                <label>
+                    <input type="checkbox" name="categoria" value="Hoodies">
+                    Hoodies
+                </label>
+                </li>
+
+                <li>
+                <label>
+                    <input type="checkbox" name="categoria" value="T-Shirts">
+                    T-Shirts
+                </label>
+                </li>
+
+                <li>
+                <label>
+                    <input type="checkbox" name="categoria" value="Pantalones">
+                    Pantalones
+                </label>
+                </li>
+            </ul>
+
+            <h3>Precio</h3>
+            <label>
+                Min
+                <input type="number" name="precio-min" placeholder="$0" min="0" >
+            </label>
+
+            <label>
+                Max
+                <input type="number" name="precio-min" placeholder="$100" min="0" >
+            </label>
+
+            <h3>Talla</h3>
+            <div class="tallas">
+            <label>
+                <input type="checkbox" name="talla" value="30">
+                30
+            </label>
+
+            <label>
+                <input type="checkbox" name="talla" value="32">
+                32
+            </label>
+
+            <label>
+                <input type="checkbox" name="talla" value="34">
+                34
+            </label>
+
+            <label>
+                <input type="checkbox" name="talla" value="36">
+                36
+            </label>
+            </div>
+            <button type="button">Aplicar filtros</button>
+        </aside>
+
+        <div class="catalogo-productos">
+            <section class="productos">
+        <div class="producto-grid">
+        <div class="producto-tarjeta">
+            <img src="img/imagen1-producto.jpg" alt="Pantalon Jeans flared 1">
+            <h3>Jeans flared negro</h3>
+            <p class="price">$30.00</p>
+            <button class="btn-gold">Añadir al carrito</button>
+        </div>
+
+        <div class="producto-tarjeta">
+            <img src="img/imagen2-producto.jpg" alt="Pantalon Jeans flared 2">
+            <h3>Jeans flared</h3>
+            <p class="price">$30.00</p>
+            <button class="btn-gold">Añadir al carrito</button>
+        </div>
+        </div>
+    </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 SuperStar🌟. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
