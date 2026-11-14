@@ -9,7 +9,7 @@ levantar.forEach(function (tarjeta) {
     })
 });
 
-const numeroWhatsapp = "50761234567";
+const numeroWhatsapp = "50768276875";
 
 const botonesPedido = document.querySelectorAll(".producto-tarjeta .btn-gold");
 
