@@ -22,6 +22,6 @@ botonesPedido.forEach(function (boton) {
         const mensaje = "Hola SuperStar, me interesa: " + nombre + " (" + precio + ")";
         const enlace = "https://wa.me/" + numeroWhatsapp + "?text=" + encodeURIComponent(mensaje);
 
-        window.open(enlace, "_blank");
+        window.location.href = enlace;
     });
 });
